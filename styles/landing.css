@@ -1,5 +1,147 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+   
+}
+
 .main{  
     background-image: linear-gradient(to right, #f336e3, #ac51a4);
     height: 100%;
     width:100%;
+
+}
+
+.row{
+    display:flex;
+}
+
+.main-photo{
+    flex:30%;
+}
+
+.main-image{
+    display: fixed;
+    bottom: 0;
+    right: 0;
+    height: 80vh;
+    padding-top: 20vh;
+}
+
+.main-text{
+    flex: 70%;
+    padding-top: 20vh;
+    padding-left: 10vh;
+}
+
+.main-text h1{
+    font-family: 'Sitka Display',sans-serif;
+    font-size: 3em;
+    color:white;
+    margin-bottom: 3px;
+}
+
+.main-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:2.2em;
+    color:#650061;
+    margin-top:0;
+}
+
+.main-btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size:2.2em;
+    color:#650061;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    width:23vw;
+    padding:3px;
+}
+
+.main-brand{
+    color:#650061;
+    font-size:0.8em;
+    display: fixed;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10vh;
+    bottom: 25px;
+    left: 0;
+}
+
+.content1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    height: 100%;
+    width:100%;
+    padding-top: 25vh;
+    padding-bottom: 0;
+    
+    
+}
+
+.option{
+    text-align: center;
+    padding:3px;
+   /* background-image:linear-gradient(to right, #f336e3, #ac51a4) ;*/
+}
+
+.content1-btn{
+    background-color:#ac51a4 ;
+    color:white;
+    border-radius: 20px;
+    font-size: 2.9em;
+    padding:25px;
+    margin-left: 20vw;
+    margin-right: 20vw; 
+}
+
+.content1-interview{
+    color:#9A24A9;
+    padding-bottom: 35vh;
+}
+
+hr{
+    color:#707070;
+}
+
+.content2{
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width:100%;
+}
+.main-image2{
+    display: fixed;
+    bottom: 0;
+    right: 0;
+    height: 90vh;
+}
+.content2-btn{
+    background-color:#9A24A9;
+    color:white;
+    text-align: center;
+    border-radius: 13px;
+    font-size: 2.0em;
+    padding:15px;
+}
+
+.content2-ninja{
+    color:#707070;
+    font-family: 'Sitka Display',sans-serif;
+    font-weight: bolder;
+    font-size: 3.9em;
+
+}
+
+.footer{
+    font-family: 'Sitka Display',sans-serif;
+    text-align: center;
+    padding-bottom: 8vh;
+}
+
+@media screen and (max-width: 465px) {
+    .main{
+        min-height: 100%;
+    }
 }
