@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/admin-dashboard.css">
+    <title>Admin panel</title>
+</head>
+<body>
+    <div class="nav">
+        
+        <h1>   <span>   challenger</span>  ADMIN</h1>
+    </div>
+    <div class="row">
+        <div class="list">
+            <div><span><a href="admin-dashboard.html">Dashboard</a></span></div>
+            <div><a href="quizes-table.html">Quizes</a></div>
+            <div><a href="questions-table.html">Questions Base</a></div>
+            <div><a href="topics-table.html">Topics</a></div>
+            <div><a href="#">Settings</a></div>
+        </div>
+        <div class="main">
+            <div class="add">Add Topic</div>
+            <br>
+            <div class="input-label">Title</div>
+                <input type="text" id="title" name="title">
+                <br>
+                <button onclick="storeTopic()" type="submit" class="btn">Save</button>
+            
+        </div>
+    </div>
+    <script src="../logic/admin-add-topic.js"></script>
+</body>
+</html>
