@@ -31,8 +31,14 @@
                 
             </select>
             <br>
-            <div>
-                <input type="text" id="">
+            <div class="input-label">Options</div>
+            <br>
+            <div id="options-list">
+                <div class="row3" id="q[0]">
+                <input type="text" class="col1" id="q[0][value]" name="q[0]">
+                <img src="../imgs/add.png" onclick="addOption();" alt="0" id="q[0][del]"class="col2">
+                <img src="../imgs/tick-mark (3).png" alt="0" onclick="makeCor(0);"id="q[0][corc]"class="col3">
+                </div>
             </div>
             <br>
             <button onclick="storeQuestion()" type="submit" class="btn">Save</button>

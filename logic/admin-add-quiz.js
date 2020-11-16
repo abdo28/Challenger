@@ -22,7 +22,8 @@ function storeQuiz(){
     document.getElementById("title").value="";
     document.getElementById("topics-list").value="";
     document.getElementById("number-of-questions").value="";
-
+    quizes = localStorage.getItem("Quizes") || "[]";
+    quizes = JSON.parse(quizes);
     quizes.push(quiz);
     localStorage.setItem("Quizes", JSON.stringify(quizes));
 }

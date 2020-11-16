@@ -163,3 +163,35 @@ input[type=text] , select {
     box-sizing: border-box;
   }
 
+  .row3{
+      display: flex;
+  }
+
+  .col1{
+      flex:90%;
+  }
+  
+  .col2{
+      flex:5%;
+      width:auto;
+      height: auto;
+      padding:15px;
+      
+  }
+
+  .col3{
+      flex:5%;;
+      width:auto;
+      height: auto;
+      padding:15px;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 1px solid black;
+
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
