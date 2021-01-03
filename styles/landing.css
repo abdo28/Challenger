@@ -87,10 +87,11 @@ html, body{
    /* background-image:linear-gradient(to right, #f336e3, #ac51a4) ;*/
 }
 
-.content1-btn{
+.content1-btn a{
     background-color:#ac51a4 ;
     color:white;
     border-radius: 20px;
+     text-decoration: none;
     font-size: 2.9em;
     padding:25px;
     margin-left: 20vw;
